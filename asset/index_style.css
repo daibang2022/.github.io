@@ -1,0 +1,57 @@
+#part2, #part1 {
+
+}
+.color-red {
+ color:red;
+}
+.bold {
+    font-weight: bold;
+
+}
+
+div p {
+    font-style: italic;
+}
+/* cả div cả p bắt đầu từ cái div đầu*/
+/* div p là trong div có p*/
+div + p {
+  background-color: aqua;
+}
+/*div +p là cái đầu sau div */
+div > p {
+    background-color: gold;
+}
+/*div >p là trong mọi cái div chứa p*/
+div ~ p{
+    background-color: blue;
+}
+/*div~p là p bắt đầu từ div đầu*/
+/*class thì ".", id thì "#"*/
+p:hover {
+    color: white;
+}
+/*hover Liên kết chuyển màu khi con chuột di chuyển qua nó*/
+/*p:first-child {
+    color:black;
+}
+p:lang {
+    color:blanchedalmond;
+}
+*/
+p::after{
+   content: "testclmm";
+   display: "block"
+}
+/*a[href="bai3.html"] {
+    color: black;
+    background-color: blanchedalmond;
+}*/
+/* a[href^="bai3"] {
+    color: black;
+    background-color: blanchedalmond;
+} các thuộc tính bắt đầu bằng ""*/
+a[href$="html"] {
+    color: black;
+    background-color: blanchedalmond;
+/* các tt kết thúc bằng đuôi html*/
+

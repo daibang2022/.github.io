@@ -1,0 +1,8 @@
+table, td, th {
+    border: 1px solid;
+    border-radius:5px
+    border-collapse: collapse;
+    border-style: dotted;
+    border-color:pink;
+
+}
